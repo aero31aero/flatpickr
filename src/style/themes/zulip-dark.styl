@@ -1,0 +1,22 @@
+$calendarBackground = hsl(212, 28%, 18%)
+$calendarBorderColor = darken(#3f4458, 50%)
+
+$monthForeground = hsl(236, 33%, 90%)
+$monthBackground = hsl(212, 28%, 18%)
+
+$weekdaysBackground = transparent
+$weekdaysForeground = hsl(236, 33%, 90%)
+
+$dayForeground = alpha(white, 0.95)
+$dayHoverBackground = lighten($calendarBackground, 25%)
+
+$todayColor = hsl(236, 31%, 90%)
+$today_fg_color = hsl(208, 35%, 11%)
+
+$selectedDayBackground = hsla(0, 0%, 0%, 0.5)
+
+@require "../flatpickr"
+
+.flatpickr-calendar {
+    box-shadow: 0px 0px 30px hsl(212, 32%, 7%);
+}
